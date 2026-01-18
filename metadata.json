@@ -1,0 +1,5 @@
+{
+  "name": "VigilAadhaar - Ghost-Child Audit System",
+  "description": "A sophisticated fraud detection dashboard for monitoring ghost-child registrations in Aadhaar, featuring real-time risk scoring, geospatial hotspots, and AI-powered audit insights.",
+  "requestFramePermissions": []
+}

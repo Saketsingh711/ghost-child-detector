@@ -7,4 +7,4 @@ If you want to Run Locally use following steps
 2. Run the app:
    `npm run dev`
 3. Check the backend instructions given in Backend Repository
-    ([ghostchild-backend]https://github.com/Saketsingh711/ghostchild-backend)
+    https://github.com/Saketsingh711/ghostchild-backend

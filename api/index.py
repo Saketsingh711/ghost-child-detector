@@ -30,7 +30,7 @@ def detect_file_type(df):
     
     return "unknown"
 
-@app.route('/analyze', methods=['POST'])
+@app.route('/api/analyze', methods=['POST']) 
 def analyze_data():
     global DATA_STORE
     

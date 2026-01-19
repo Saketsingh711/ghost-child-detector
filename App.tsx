@@ -57,9 +57,9 @@ const App: React.FC = () => {
       setMlLogs(prev => [...prev, "📡 Sending data to localhost:5000/analyze..."]);
       
       // THE REAL API CALL
-      const response = await fetch('http://localhost:5000/analyze', {
-        method: 'POST',
-        body: formData,
+      const response = await fetch('/api/analyze', { 
+        method: 'POST', 
+        body: formData 
       });
 
       setProcessStep('Server Processing (Random Forest)...');
